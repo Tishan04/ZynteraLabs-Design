@@ -16,44 +16,198 @@
     <link rel="stylesheet" href="css/indexstyles.css">
 </head>
 <body>
+
+    <!-- HEADER -->
     <header class="container">
         <div class="logo">ZynteraLabs</div>
         <nav>
             <a href="#about">About</a>
             <a href="#services">Services</a>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#solutions">Solutions</a>
+            <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
 
-    <section class="hero">
-        <h1>Innovate. Code. Elevate.</h1>
-        <p>At ZynteraLabs, we craft futuristic software solutions that empower businesses to thrive in the digital age.</p>
-        <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Get in Touch</button>
+    <!-- Hero Section -->
+    <section class="hero-video-hero">
+        <!-- Background Video -->
+        <video autoplay muted loop playsinline class="hero-bg-video">
+            <source src="homevideo2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Overlay for better text readability -->
+        <div class="hero-overlay"></div>
+
+        <!-- Hero Content -->
+        <div class="container hero-content">
+            <h1>
+                Transform Ideas into <span>Enterprise-Grade Software</span>
+            </h1>
+            <p>
+                We build scalable digital systems — from AI insights, cloud architectures,
+                and cybersecurity to ERP, mobile apps, and data analytics solutions.
+            </p>
+            <div class="hero-buttons">
+                <button>Explore Solutions</button>
+                <button class="secondary-btn">Contact Us</button>
+            </div>
+        </div>
     </section>
 
-    <section id="about" class="container">
+    <!-- TRUST / STATS SECTION -->
+    <section class="stats container">
+        <div class="stat-box">
+            <h2>150+</h2>
+            <p>Projects Delivered</p>
+        </div>
+        <div class="stat-box">
+            <h2>40+</h2>
+            <p>Enterprise Clients</p>
+        </div>
+        <div class="stat-box">
+            <h2>12+</h2>
+            <p>Countries Served</p>
+        </div>
+        <div class="stat-box">
+            <h2>99%</h2>
+            <p>Client Satisfaction</p>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="container section">
         <h2>About ZynteraLabs</h2>
-        <p>We deliver cutting-edge software development, digital solutions, and AI-powered tools designed to accelerate innovation.</p>
+        <p>
+            ZynteraLabs is a next-generation technology company delivering scalable software platforms,
+            AI-powered systems, and cloud-native solutions for modern enterprises.
+        </p>
     </section>
 
-    <section id="services" class="container dark-section">
-        <h2>Our Services</h2>
-        <p>From web & mobile apps to AI-driven solutions, we offer full-stack development with a focus on performance and design.</p>
+    <!-- CORE SERVICES -->
+    <section id="services" class="section dark-section">
+        <div class="container">
+            <h2>Core Services</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <h3>Enterprise Software Development</h3>
+                    <p>Custom-built scalable systems designed for performance and reliability.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Cloud & DevOps Engineering</h3>
+                    <p>Cloud-native architecture, CI/CD pipelines, and infrastructure automation.</p>
+                </div>
+                <div class="service-card">
+                    <h3>AI & Data Intelligence</h3>
+                    <p>Machine learning models, predictive analytics, and intelligent automation.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Cybersecurity Solutions</h3>
+                    <p>Enterprise-grade security frameworks and threat monitoring systems.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="portfolio" class="container">
-        <h2>Portfolio</h2>
-        <p>Explore projects that showcase our expertise in delivering high-quality digital products.</p>
+    <!-- INDUSTRY SOLUTIONS -->
+    <section id="solutions" class="container section">
+        <h2>Solutions by Industry</h2>
+        <div class="industry-grid">
+            <div class="industry-card">FinTech</div>
+            <div class="industry-card">Healthcare</div>
+            <div class="industry-card">E-Commerce</div>
+            <div class="industry-card">Logistics</div>
+            <div class="industry-card">Education</div>
+            <div class="industry-card">Government</div>
+        </div>
     </section>
 
-    <section id="contact" class="container dark-section">
+    <!-- WHY CHOOSE US -->
+    <section class="section dark-section">
+        <div class="container">
+            <h2>Why Choose ZynteraLabs?</h2>
+            <ul class="why-list">
+                <li>✔ Scalable & Secure Architecture</li>
+                <li>✔ Agile & Transparent Development Process</li>
+                <li>✔ Dedicated Technical Teams</li>
+                <li>✔ Long-Term Strategic Partnerships</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- PROJECTS / CASE STUDIES -->
+    <section id="projects" class="container section">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>AI-Powered Analytics Platform</h3>
+                <p>Designed a predictive analytics engine for enterprise retail management.</p>
+            </div>
+            <div class="project-card">
+                <h3>Cloud Migration Framework</h3>
+                <p>Successfully migrated legacy infrastructure to scalable cloud systems.</p>
+            </div>
+            <div class="project-card">
+                <h3>Secure FinTech Payment Gateway</h3>
+                <p>Developed high-performance secure digital payment processing system.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section dark-section">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial">
+                <p>"ZynteraLabs transformed our digital infrastructure and accelerated our innovation roadmap."</p>
+                <span>- CEO, Global Tech Firm</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CALL TO ACTION -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Transform Your Business?</h2>
+            <p>Partner with ZynteraLabs to build intelligent, scalable, and secure digital systems.</p>
+            <button>Start Your Project</button>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="container section">
         <h2>Contact Us</h2>
-        <p>Ready to start your next digital journey? Let’s build something amazing together.</p>
+        <p>Email: info@zynteralabs.com</p>
+        <p>Phone: +94 77 123 4567</p>
     </section>
 
-    <footer>
-        &copy; 2026 ZynteraLabs. All rights reserved.
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <h3>ZynteraLabs</h3>
+                <p>Engineering scalable digital ecosystems for the modern enterprise.</p>
+            </div>
+            <div>
+                <h4>Services</h4>
+                <p>Software Development</p>
+                <p>Cloud Engineering</p>
+                <p>AI Solutions</p>
+                <p>Cybersecurity</p>
+            </div>
+            <div>
+                <h4>Company</h4>
+                <p>About Us</p>
+                <p>Careers</p>
+                <p>Blog</p>
+                <p>Contact</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 ZynteraLabs. All rights reserved.
+        </div>
     </footer>
+
 </body>
 </html>
