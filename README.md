@@ -1,1 +1,1 @@
-<h1 text-align = "center">ZynteraLabs-Design</h1>
+<h1 align = "center">ZynteraLabs-Design </h1>
