@@ -3,4 +3,3 @@
 <p>
   Website design for the IT company, ZynteraLabs. 
 </p>
-
