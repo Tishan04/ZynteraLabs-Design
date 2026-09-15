@@ -88,9 +88,6 @@ nav a:hover::after {
     width: 100%;
 }
 
-/* =========================
-   HERO SECTION WITH VIDEO
-========================= */
 .hero-video-hero {
     position: relative;
     height: 90vh;
@@ -98,7 +95,6 @@ nav a:hover::after {
     overflow: hidden;
 }
 
-/* Background video */
 .hero-bg-video {
     position: absolute;
     top: 0;
@@ -112,7 +108,6 @@ nav a:hover::after {
     filter: brightness(40%); /* dark overlay for readability */
 }
 
-/* Dark overlay for text readability */
 .hero-overlay {
     position: absolute;
     top: 0;
@@ -123,7 +118,6 @@ nav a:hover::after {
     z-index: 1;
 }
 
-/* Hero content */
 .hero-content {
     position: relative;
     z-index: 2;
@@ -154,7 +148,6 @@ nav a:hover::after {
     color: #ccc;
 }
 
-/* Buttons */
 .hero-buttons {
     display: flex;
     justify-content: center;
@@ -169,7 +162,6 @@ nav a:hover::after {
     transition: 0.3s ease;
 }
 
-/* Primary button */
 .hero-content button:first-child {
     background: linear-gradient(90deg, #7c3aed, #06b6d4);
     color: #fff;
@@ -179,7 +171,6 @@ nav a:hover::after {
     box-shadow: 0 8px 20px rgba(124, 58, 237, 0.4);
 }
 
-/* Secondary button */
 .secondary-btn {
     background: transparent;
     border: 2px solid #7c3aed;
