@@ -72,7 +72,7 @@ nav a:hover {
 nav a::after {
     content: "";
     position: absolute;
-    bottom: -20px;           /* distance below text */
+    bottom: -20px;      
     left: 0%;          /* full width of the text */
     height: 3.5px;            /* thickness of underline */
     background: #00f5d4;
@@ -253,10 +253,6 @@ nav a:hover::after {
     color: #94a3b8;
 }
 
-/* =========================
-   WHY SECTION
-========================= */
-
 .why-list {
     list-style: none;
     margin-top: 40px;
@@ -266,10 +262,6 @@ nav a:hover::after {
     margin-bottom: 15px;
     color: #cbd5e1;
 }
-
-/* =========================
-   TESTIMONIAL
-========================= */
 
 .testimonial {
     margin-top: 40px;
@@ -284,10 +276,6 @@ nav a:hover::after {
     font-weight: 600;
     color: #7c3aed;
 }
-
-/* =========================
-   CTA SECTION
-========================= */
 
 .cta-section {
     background: linear-gradient(90deg, #7c3aed, #06b6d4);
@@ -310,10 +298,6 @@ nav a:hover::after {
 .cta-section button:hover {
     transform: scale(1.05);
 }
-
-/* =========================
-   FOOTER
-========================= */
 
 .footer {
     background: #0b0f19;
@@ -343,10 +327,6 @@ nav a:hover::after {
     padding-top: 20px;
     color: #64748b;
 }
-
-/* =========================
-   RESPONSIVE
-========================= */
 
 @media (max-width: 768px) {
     .stats {
