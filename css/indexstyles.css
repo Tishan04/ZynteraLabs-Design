@@ -73,11 +73,11 @@ nav a::after {
     content: "";
     position: absolute;
     bottom: -20px;      
-    left: 0%;          /* full width of the text */
-    height: 3.5px;            /* thickness of underline */
+    left: 0%;
+    height: 3.5px;
     background: #00f5d4;
-    transform: scaleX(0);   /* start hidden */
-    transform-origin: center; /* grow from center */
+    transform: scaleX(0); 
+    transform-origin: center;
     transition: transform 0.3s ease;
     border-radius: 50px;
 }
